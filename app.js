@@ -21,6 +21,7 @@ var createNewTaskElement=function(taskString){
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
+    checkBox.title = "specify completed or not";
     //label
     var label=document.createElement("label");//label
     //input (text)

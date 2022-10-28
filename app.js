@@ -26,6 +26,7 @@ var createNewTaskElement=function(taskString){
     var label=document.createElement("label");//label
     //input (text)
     var editInput=document.createElement("input");//text
+    editInput.title = "type your task";
     //button.edit
     var editButton=document.createElement("button");//edit button
 

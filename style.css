@@ -37,20 +37,20 @@
     display: flex;
 }
 .main-container__tasks-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .main-container__task-item,
 .main-container__task-item_edit-mode, 
 .main-container__h3-header {
-    list-style:none;
+    list-style: none;
 }
 .main-container__task-input,
 .main-container__add-task-input,
 .main-container__edit-button,
 .main-container__delete-button,
 .main-container__add-task-button {
-    outline:none;
+    outline: none;
 }
 .main-container__edit-button,
 .main-container__delete-button,
@@ -153,14 +153,14 @@
 
 /* Edit Task */
 .main-container__tasks-list .main-container__task-item .main-container__task-input {
-    display:none;
+    display: none;
 }
 
 .main-container__tasks-list .main-container__task-item_edit-mode .main-container__task-input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .main-container__tasks-list .main-container__task-item_edit-mode .main-container__task-content {
-    display:none;
+    display: none;
 }

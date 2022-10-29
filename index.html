@@ -20,14 +20,14 @@
     </header>
     <main class="main-container">
       <section class="main-container__top-section">
-        <label class="main-container__add-task-label" for="new-task">Add Item</label>
+        <label class="main-container__add-task-label" for="add-task-input">Add Item</label>
         <article class="main-container__add-task-wrapper">
-          <input id="new-task" class="main-container__add-task-input" type="text">
+          <input id="add-task-input" class="main-container__add-task-input" type="text">
           <button type="button" class="main-container__add-task-button">Add</button>
         </article>
       </section>
       <h3 class="main-container__h3-header">Todo</h3>
-      <ul id="incomplete-tasks" class="main-container__tasks-list">
+      <ul id="uncompleted-tasks-list" class="main-container__tasks-list">
         <li class="main-container__task-item">
           <input class="main-container__task-checkbox"
               type="checkbox" title="specify completed or not">
@@ -55,7 +55,7 @@
         </li>
       </ul>
       <h3 class="main-container__h3-header">Completed</h3>
-      <ul id="completed-tasks" class="main-container__tasks-list">
+      <ul id="completed-tasks-list" class="main-container__tasks-list">
         <li class="main-container__task-item">
           <input class="main-container__task-checkbox"
               type="checkbox" checked title="specify completed or not">

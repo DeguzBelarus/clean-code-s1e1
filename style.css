@@ -146,7 +146,7 @@
 }
 
 /* Completed */
-.main-container__tasks-list #completed-tasks .main-container__task-content {
+.main-container__tasks-list #completed-tasks-list .main-container__task-content {
     text-decoration: line-through
     color: #888;
 }

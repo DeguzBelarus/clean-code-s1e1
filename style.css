@@ -132,8 +132,11 @@
     align-items: center;
 }
 
-.main-container__task-item  > *,
-.main-container__task-item_edit-mode > * {
+.main-container__task-checkbox,
+.main-container__task-content,
+.main-container__task-input,
+.main-container__edit-button,
+.main-container__delete-button {
     vertical-align: middle;
 }
 
